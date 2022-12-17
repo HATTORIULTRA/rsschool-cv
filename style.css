@@ -162,22 +162,21 @@ nav {
 }
 
 .portfolio__descr {
-    margin-bottom: 99px;
+    margin-bottom: 60px;
     font-size: 18px;
     line-height: 22px;
     font-weight: normal;
-    text-decoration-line: underline;
     color: #070707;
 }
 
 .portfolio__img {
     max-width: 936px;
     display: block;
-    margin-bottom: 99px;
+    margin-bottom: 110px;
 }
 
-.braun {
-    margin-bottom: 210px;
+.projects__descr {
+    margin-bottom: 110px;
 }
 
 .footer__title {
