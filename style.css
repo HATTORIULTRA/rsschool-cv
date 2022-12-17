@@ -140,7 +140,7 @@ nav {
     max-height: 206px;
     /* background-color: grey; */
     margin-right: 90px;
-    margin-bottom: 229px;
+    margin-bottom: 30px;
 }
 
 .programs__item-img {
@@ -149,6 +149,10 @@ nav {
 
 .programs__item:last-child {
     margin-right: 0px;
+}
+
+.programs__paragraph-2{
+    margin-bottom: 110px;
 }
 
 .container {
