@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>HATTORIULTRA CV</title>
+</head>
+
+<body>
+    <!-- Навигационное меню -->
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">About me</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Code</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Education</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+                    </ul>
+                </nav>
+                <hr>
+            </div>
+            <!-- Фамилия имя -->
+            <div class="header__anketa">
+                <h1 class="header__name">Vadim<br>Bashirov</h1>
+                <p class="header__paragraph">Junior Front-End Developer<br>26 years old, Sterlitamak</p>
+                <ul class="header__language">
+                    <li><a href="#">ENG</a></li>
+                    <li><a href="#">RU</a></li>
+                </ul>
+            </div>
+            <!-- Моё фото -->
+            <div class="header__photo">
+                <img class="header__img" src="my-github-avatar.jpg" alt="my github and discord avatar">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Обо мне -->
+        <div id="about-me" class="about-me">
+            <div class="container">
+                <h2 class="about-me__header">
+                    About me
+                </h2>
+                <p class="about-me__paragraph">
+                    Hi, I'm Vadim – Junior Front-End Developer from Sterlitamak.<br>
+                    I'm interested in everything related to programming and technology.
+                    <br>
+                    <br>
+                    I'm taking a preparatory course called "JavaScript/Front-end. Stage 0"<br>
+                    from The Rolling Scopes community.
+                    <br>
+                    <br>
+                    Ready to implement excellent projects<br>
+                    with wonderful people.
+                </p>
+            </div>
+        </div>
+        <!-- Что я умею/Skills -->
+        <div id="" class="programs">
+            <div class="container">
+                <h2 class="programs__skills">
+                    Skills
+                </h2>
+                <p class="programs__paragraph">
+                    Web Development
+                </p>
+                <div class="programs__cards">
+                    <!-- Карточки с иконками -->
+                    <div class="programs__item">
+                        <img src="html-5.png" alt="program img" class="programs__item-img">
+                        <h4 class="programs__item-img__title">HTML5</h4>
+                        <h5 class="skills__stars">★★★★</h5>
+                    </div>
+                    <div class="programs__item">
+                        <img src="css-3.png" alt="program img" class="programs__item-img">
+                        <h4 class="programs__item-img__title">CSS3</h4>
+                        <h5 class="skills__stars">★★★★</h5>
+                    </div>
+                    <div class="programs__item">
+                        <img src="js.png" alt="program img" class="programs__item-img">
+                        <h4 class="programs__item-img__title">JavaScript</h4>
+                        <h5 class="skills__stars">★★</h5>
+                    </div>
+                    <div class="programs__item">
+                        <img src="react.png" alt="program img" class="programs__item-img">
+                        <br>
+                        <h4 class="programs__item-img__title">React</h4>
+                        <h5 class="skills__stars">★</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Мой код -->
+        <div class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title">
+                    Code
+                </h2>
+                <pre>
+                    <code>
+                        ```javascript
+                        const func = (num) => {
+                          if (num > 0) {
+                            return num - 1;
+                          }
+                          return num + 1;
+                        };
+                        ```
+                    </code>
+                </pre>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__title">Contacts</h2>
+            <h6 class="footer__descr">
+                Want to know more or just chat?<br>You are welcome!
+            </h6>
+            <button class="footer__button">
+                Send message
+            </button>
+            <div class="socials">
+                <a class="socials__icons" href="#"><img src="icons/insta.png" alt=""></a>
+            </div>
+            <h6 class="socials__subscribe">
+                Like me on<br>LinkedIn, Instagram, Behance, Dribble
+            </h6>
+        </div>
+    </footer>
+
+</body>
+
+</html>
