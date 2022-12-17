@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>HATTORIULTRA CV</title>
+</head>
+<body>
+    <!-- Навигационное меню -->
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#About-me">About me</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#Skills">Skills</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#Code">Code</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#Projects">Projects</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#Courses">Education</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#Contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <hr>
+            </div>
+            <!-- Фамилия имя -->
+            <div class="header__anketa">
+                <h1 class="header__name">Vadim<br>Bashirov</h1>
+                <p class="header__paragraph">Junior Front-End Developer<br>26 years old, Sterlitamak</p>
+                <ul class="header__language">
+                    <li><a href="#">ENG</a></li>
+                    <li><a href="#">RU</a></li>
+                </ul>
+            </div>
+            <!-- Моё фото -->
+            <div class="header__photo">
+                <img class="header__img" src="my-github-avatar.jpg" alt="my github and discord avatar">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Обо мне -->
+        <div id="about-me" class="about-me">
+            <div class="container">
+                <h2 class="about-me__header" id="About-me">
+                    About me
+                </h2>
+                <p class="about-me__paragraph">
+                    Hi, I'm Vadim – Junior Front-End Developer from Sterlitamak.<br>
+                    I'm interested in everything related to programming and technology.
+                    <br>
+                    <br>
+                    I'm taking a preparatory course called "JavaScript/Front-end. Stage 0"<br>
+                    from The Rolling Scopes community.
+                    <br>
+                    <br>
+                    Ready to implement excellent projects<br>
+                    with wonderful people.
+                </p>
+            </div>
+        </div>
+        <!-- Что я умею/Skills -->
+        <div class="programs">
+            <div class="container">
+                <h2 class="programs__skills" id="Skills">
+                    Skills
+                </h2>
+                <p class="programs__paragraph">
+                    Web Development
+                </p>
+                <div class="programs__cards">
+                    <!-- Карточки с иконками -->
+                    <div class="programs__item">
+                        <img src="html-5.png" alt="program img" class="programs__item-img">
+                        <h4 class="programs__item-img__title">HTML5</h4>
+                        <h5 class="skills__stars">★★★★</h5>
+                    </div>
+                    <div class="programs__item">
+                        <img src="css-3.png" alt="program img" class="programs__item-img">
+                        <h4 class="programs__item-img__title">CSS3</h4>
+                        <h5 class="skills__stars">★★★★</h5>
+                    </div>
+                    <div class="programs__item">
+                        <img src="js.png" alt="program img" class="programs__item-img">
+                        <h4 class="programs__item-img__title">JavaScript</h4>
+                        <h5 class="skills__stars">★★</h5>
+                    </div>
+                    <div class="programs__item">
+                        <img src="react.png" alt="program img" class="programs__item-img">
+                        <br>
+                        <h4 class="programs__item-img__title">React</h4>
+                        <h5 class="skills__stars">★</h5>
+                    </div>
+                </div>
+                <p class="programs__paragraph-2">
+                    А2 (Elementary) - English lang level
+                </p>
+            </div>
+        </div>
+        <!-- Мой код -->
+        <div class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title" id="Code">
+                    Code
+                </h2>
+                <h3 class="portfolio__descr">
+                    Case Study. An object with data that the user enters through browser functions (alert, prompt, confirm).
+                </h3>
+                <img src="code2.png" alt="code for example" class="portfolio__img">
+                <h2 class="courses" id="Courses">
+                    Courses
+                </h2>
+                <h3 class="courses__descr">
+                    <a class="courses__link" href="https://rs.school/js-stage0/">The Rolling Scopes School</a>
+                </h3>
+                <h2 class="projects" id="Projects">
+                    Projects
+                </h2>
+                <h3 class="projects__descr">
+                    This section will be expanded over time :)
+                </h3>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__title" id="Contacts">Contacts</h2>
+            <h6 class="footer__descr">
+                Want to know more or just chat?<br>You are welcome! My discord profile.
+            </h6>
+            <button class="footer__button">
+                <a href="https://discordapp.com/users/288385286663045120/" class="footer__button-link">Send message</a>
+            </button>
+            <h6 class="socials__subscribe">
+                Like me on<br><a href="https://github.com/HATTORIULTRA">GitHub</a>
+            </h6>
+            <h6 class="footer__year">© 2022 HATTORIULTRA</h6>
+            <a href="https://rs.school/index.html"><img src="background.png" alt="rsschool icon" class="footer__img-rs"></a>
+        </div>
+    </footer>
+</body>
+</html>
