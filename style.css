@@ -175,6 +175,14 @@ nav {
     margin-bottom: 110px;
 }
 
+.courses__link{
+    text-decoration: underline;
+}
+
+.courses__descr{
+    margin-bottom: 110px;
+}
+
 .projects__descr {
     margin-bottom: 110px;
 }
@@ -196,7 +204,7 @@ nav {
     width: 180px;
     height: 42px;
     border-radius: 21px;
-    font-weight: bold;
+    /* font-weight: bold; */
     margin-bottom: 85px;
     background-color: black;
     color: white;
@@ -236,4 +244,8 @@ nav {
     color: #828282;
     font-weight: normal;
     margin-bottom: 123px;
+}
+
+.footer__img-rs{
+    width: 200px;
 }
